@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 964 604 --><!--version 9.7.6.18120 --><!--type html --><!--mainFolder ./ --><!--content book -->
+<!--
+Copyright 2012 Mozilla Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Adobe CMap resources are covered by their own copyright but the same license:
+
+    Copyright 1990-2015 Adobe Systems Incorporated.
+
+See https://github.com/adobe-type-tools/cmap-resources
+-->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<title>[Nitro] Geografia - Climatologia</title>
+	<link rel="stylesheet" href="data/css/viewer.css"/>
+	<script src="data/js/viewer.js"></script>
+	
+	<script src=lms.js></script>
+	<script>
+		if (document.addEventListener) // IE9+
+		{
+			var book = "eNp1VF1u4zYQvgohYN9swb+17DdKohNtFMm15GyDRSDQFq0QkEWXorzYjQP0AnuHXRRogQJ96hF0k56kQ0lxihZ5ochvZr751TwZiqucGQvjY8CVFA/oiolM0j2nqI+cnB+oErnIODV6xpFmLOJfWGksPj4ZJdzgMp1PzdHsh541GZrW/KFnSFpkWjDsTR+e4V3SXAH/cuC4s9lsPBmP3MlgOLbHI+JMhvbMGllTdzYF/kda+mJH8zsmSy4KY6FkxRp4Rcvyk5CpsdjTvASMDy2QPxnETXB0k6xwFH0I127ietgPrxIvuMO+577iPraJD1FgVLLikaKUZ1zRlKKi/lUgViqKdkJKpqiJYlYohgpxogd9MyGyN9y8sLqajSHakR+ppIhuJZeamaGcn6RYvE2z8rFDrkPfJWsgizRHq+zgwGkcOLTYsZzKFvZDDKrNxwteo3AoJJDRIhV///JbqxneAA5Hz1jZCXbdxA7Dm1u8vkmuCW7d4ZTvoNjaDB2o3NFUSOjw/y1i8lMM+j9WjepJ7Oo/dHr8xCTKGWA9tMv5z5UuHdoKpQv7QtiWpHnBvf6e8QIqpCqam52nq/CSB1Wy/t5F8OI9SmJsg+z2PxG6+D66GKacdvB1uFm/4o9l5+XWCzYxeRUcePEiCYP4usUjELynhXlespN5BofmGW+lvnHz/L4q9JEDlgnzHDFlnsMKjkCAssu+dHxBmISb2PcCAmwBdLQ6oPrPAmrNWoVO2qVVf/2XaIWvyCXEVVesdw0abG5tsn7X6q2JQ4LYv9dtIi7oFs208QKmGea2VdoE+A57wOaTxMZBAHPTNfKu6WBZ/4WOIoUh1W3Ug1rCn3BAEG/J5Inr5qEPbGu+TefFvs7S18boWG1zrlsE5kBRHYWEmOpvSLKjFGlV/67nQuz3/ZwXXYz3JIrJGlp5yVpA/AfjGVaOFIrt1FKKgyOOn3mRXVbAHh5MHiUv9HqZTaz5YElG/cnAwv3h0Bn2Z+PBpG/bztIaW8v5HA/AGy+1QbbK6WcPfMCmU82m6ThhrhQMV6Qo1K8Fn/8BjMGmRA==";
+
+			document.addEventListener("DOMContentLoaded", function() {
+				PdfViewer.checkMobileIntegration(book);
+
+				var viewerInitCallback = function(viewer) {
+									(function(viewer){
+					var lms = iSpring.pdfviewer.LMS.instance();
+					lms.start(viewer);
+				
+					window.onunload = window.onbeforeunload = function()
+					{
+						lms.closeLms();
+					};
+				})(viewer)
+
+				};
+
+				var startupApplication = function(initViewerState) {
+					var fileOpenParams = {"type":"fileName","filePath":"data\/book.pdf"};
+					PdfViewer.open(fileOpenParams, document.body, book, viewerInitCallback, initViewerState);
+				};
+
+				(function(startupFunc) {
+					if (startupFunc)
+					{
+						startupFunc(startupApplication);
+					}
+					else
+					{
+						startupApplication();
+					}
+				})(				function(startupApplication) {
+					var params = {
+						docId: "",
+						flags: 0,
+						resumeMode: "always",  
+						tincan:
+						{
+							endPoint: "",
+							auth:
+							{
+								type: "",
+								key: "",
+								login: "",
+								password: "",
+								name: "",
+								email: ""
+							},
+							i18n:{
+				}
+						},
+						scorm2004:
+						{
+							edition: "2"
+						}
+					};
+				
+					var lms = iSpring.pdfviewer.LMS.create("2004", params);
+					lms.initialize(startupApplication);
+				}
+);
+			});
+		}
+		else
+		{
+			location.replace("data/html5-unsupported.html");
+		}
+	</script>
+</head>
+<body></body>
+</html>
